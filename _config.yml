@@ -22,8 +22,8 @@ title: Flanaess Fables | Adventures of wandering Oerthlings
 email: ahoy@flanaessfables.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome Oerthlings! Follow the story of our wandering Oerthlings as they adventure across the Flanaess.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "flanaess-fables" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "flanaess-fables" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adamlevoy
 github_username:  adamlevoy
 
