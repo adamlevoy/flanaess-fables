@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Role play challenge with a wild wizard atop a flying wyvernling bed
+title: Role play challenge and a flying wyvernling bed
 author: Dungeon Master
 ---
 
