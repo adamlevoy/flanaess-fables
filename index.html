@@ -1,0 +1,28 @@
+---
+layout: default
+title: Adam Levoy
+---
+
+<header class="hero-container">
+    <h1>Flanaess Fables</h1>
+    <h2>Adventures of wandering Oerthlings</h2>
+</header>
+
+<main class="container">
+    <ul class="column-container">
+        {% for post in site.posts %}
+            <li class="card">
+                {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                <h2>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <span class="card-date">
+                    {{ post.date | date: date_format }}
+                </span>
+                <p>
+                    {{ post.excerpt }}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+</main>

@@ -1,0 +1,127 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Vollkorn&display=swap');
+
+$font-1: 'Rakkas', cursive;
+$font-2: 'Vollkorn', serif;
+
+// Colors
+$primary-color: #23344d;
+$secondary-color: #648477;
+$light-color: #dfe3e4;
+$dark-color: #14161d;
+$medium-color: #899291;
+$bold-color: #940b11;
+
+// Reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Elements
+body {
+  background-color: $primary-color;
+  color: $light-color;
+  border-top: 0.4rem solid $bold-color;
+  line-height: 1.5;
+  font-family: $font-2;
+}
+
+h1 {
+  font-family: $font-1;
+  font-size: 60px;
+  letter-spacing: 3px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-weight: initial;
+}
+
+a {
+  color: $bold-color;
+  text-decoration: none;
+}
+
+article {
+  max-width: 80ch;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.8;
+}
+
+// Styles
+.card-date {
+  color: $medium-color;
+  font-style: italic;
+}
+
+// Utilities
+
+.container {
+  margin-right: 8vw;
+  margin-left: 8vw;
+}
+
+.hero-container {
+  text-align: center;
+  margin-right: 8vw;
+  margin-left: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  justify-items: center;
+  grid-gap: 2rem;
+  list-style: none;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.post-title {
+  max-width: 80ch;
+  margin: 5vh auto;
+  text-align: center;
+  padding: 0 1rem;
+
+  h1 {
+    padding-bottom: 1rem;
+  }
+}
+
+.post-body {
+  max-width: 60ch;
+  margin: 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
+  font-size: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgba(37, 37, 37, 1);
+  padding: 1.5rem;
+  margin: 10px auto;
+  color: $dark-color;
+  width: 100%;
+
+  h2 {
+    font-family: $font-1;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+// .card:hover {
+//   background-color: $medium-color;
+// }

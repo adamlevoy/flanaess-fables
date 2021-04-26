@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<link rel="shortcut icon" href="/flanaess-fables/favicon.ico" type="image/x-icon">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
+        <title>
+            {{ page.title }}
+        </title>
 
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    </head>
+    <body>
+        <!-- {% include navigation.html %} -->
         {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+    </body>
 </html>
