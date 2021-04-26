@@ -14,7 +14,7 @@ title: Adam Levoy
             <li class="card">
                 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
                 <h2>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h2>
                 <span class="card-date">
                     {{ post.date | date: date_format }}
