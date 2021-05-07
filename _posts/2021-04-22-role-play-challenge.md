@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Role play challenge and a flying wyvernling bed
+description: A terrible shriek is all that Aldon, Corvus and Scutters could recall before darkness enveloped them.
+image: https://s3.amazonaws.com/files.d20.io/images/202279811/hsUvjhTZPBGABboo03gV-A/med.png?1613764325
 author: Dungeon Master
 ---
 
