@@ -20,8 +20,7 @@ The RP-ers advanced to a tower in the woods where they faced more polymorphed ad
 
 A shrewdness of apes brought down the mighty Caznas. But they were ultimately vanquished. It was then that the wizard burst through the ceiling atop a bed dragon wyvernling, spewing splinter breath in its wake.
 
-![bed dragon wyvernling](https://s3.amazonaws.com/files.d20.io/images/202279811/hsUvjhTZPBGABboo03gV-A/med.png?1613764325)
-
+<img src="https://s3.amazonaws.com/files.d20.io/images/202279811/hsUvjhTZPBGABboo03gV-A/med.png?1613764325" alt="dragon bed" width="100%" />
 Draggerd and Nodla targeted the Wizard and when he fell, the beast returned to an inanimate object. The wizard made one last ditch effort to protect the artifact, transforming himself into a gruesome pile of flesh and eyeballs. The mighty barbarian wrestled the artifact from its grasp.
 
 Now, Finethir the sheep stares longingly at the wand, while Corvus lies lifeless in the midst of the desecrated body of Finethir’s former apprentice...

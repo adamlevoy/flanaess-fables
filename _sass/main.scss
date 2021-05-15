@@ -31,7 +31,7 @@ body {
 h1 {
   font-family: $font-1;
   font-size: 60px;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
   line-height: 1.1;
 }
 
@@ -75,6 +75,17 @@ blockquote {
 .card-date {
   color: $medium-color;
   font-style: italic;
+}
+
+.card img {
+  img {
+    width: 100%;
+  }
+}
+
+.center-content {
+  display: grid;
+  place-content: center;
 }
 
 // Utilities
@@ -142,6 +153,36 @@ blockquote {
   }
 }
 
-// .card:hover {
-//   background-color: $medium-color;
-// }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $bold-color;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+
+  padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+
+  text-align: center;
+  line-height: 1.1;
+
+  transition: 220ms all ease-in-out;
+
+  font-family: $font-1;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+// margins
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
