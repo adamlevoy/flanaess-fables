@@ -1,4 +1,4 @@
 plugins:
   - jekyll-seo-tag
 
-site.url: https://adamlevoy.github.io/flanaess-fables/
+url: https://adamlevoy.github.io/flanaess-fables/
