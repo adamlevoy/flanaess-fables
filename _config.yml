@@ -1,3 +1,5 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-loading-lazy
+
+url: https://adamlevoy.github.io/flanaess-fables
