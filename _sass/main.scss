@@ -113,6 +113,83 @@ blockquote {
   margin-bottom: 5vh;
 }
 
+.gallery {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+
+  img {
+    width: 100%;
+    border: 2px solid $dark-color;
+    border-radius: 10px;
+  }
+}
+
+.modal {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.modalInner {
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-100vh);
+  transition: all 0.5s;
+  max-width: 550px;
+  max-height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  color: black;
+  margin: 3rem;
+}
+
+.modal figure {
+  height: 100%;
+  display: grid;
+  margin: 0;
+  grid-template-rows: 1fr auto;
+  background: white;
+}
+
+.modal img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal figcaption {
+  padding: 10px;
+}
+
+.modal h2 {
+  color: black;
+}
+
+.modal.open .modalInner {
+  transform: translateY(0);
+}
+
+.modal button {
+  font-size: 1.5rem;
+}
+
 .post-title {
   max-width: 80ch;
   margin: 5vh auto;
@@ -124,13 +201,35 @@ blockquote {
   }
 }
 
+nav ul {
+  list-style: none;
+  font-size: 16px;
+
+  li {
+    display: inline;
+    padding: 0 1rem;
+    font-weight: bold;
+
+    a {
+      color: $light-color;
+    }
+
+    a:hover {
+      color: $medium-color;
+    }
+
+    .current {
+      border-bottom: 2px solid $bold-color;
+    }
+  }
+}
+
 .post-body {
   max-width: 60ch;
   margin: 5vh;
   margin-right: auto;
   margin-left: auto;
   padding: 0 1rem;
-  font-size: 20px;
 }
 
 .card {
