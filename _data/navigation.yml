@@ -1,4 +1,4 @@
 - name: ☠️ Home
-  link: index.html
+  link: /
 - name: ⚔️ Monster Dex
-  link: monster-dex.html
+  link: /monster-dex.html
