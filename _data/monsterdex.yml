@@ -15,39 +15,39 @@
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Bulette
-  link: /assets/images/monsters/Bulette.png
+  link: /assets/images/monsters/bulette.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Centaur
-  link: /assets/images/monsters/Centaur.png
+  link: /assets/images/monsters/centaur.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Duergar
-  link: /assets/images/monsters/Displacer-Beast.png
+  link: /assets/images/monsters/displacer-beast.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Duergar
-  link: /assets/images/monsters/Duergar.png
+  link: /assets/images/monsters/duergar.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Grick
-  link: /assets/images/monsters/Grick.png
+  link: /assets/images/monsters/grick.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Hobgoblin
-  link: /assets/images/monsters/Hobgoblin.png
+  link: /assets/images/monsters/hobgoblin.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Mindflayer
-  link: /assets/images/monsters/Mindflayer.png
+  link: /assets/images/monsters/mindflayer.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Roper
-  link: /assets/images/monsters/Roper.jpg
+  link: /assets/images/monsters/roper.jpg
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Shadow Demon
-  link: /assets/images/monsters/Shadow-Demon.png
+  link: /assets/images/monsters/shadow-demon.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Spirit Troll
