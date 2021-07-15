@@ -11,45 +11,9 @@ subtitle: Creatures encountered by our adventuring Oerthlings
   <!-- gallery -->
   <div class="gallery column-container">
 
-    <img src="./assets/images/monsters/ankheg.png" alt="Ankheg" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/barbed-devil-boss.png" alt="Barbed Devil Boss" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/boneclaw.png" alt="Boneclaw" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/bugbear.png" alt="Bugbear" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/bulette.png" alt="Bulette" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/centaur.png" alt="Centaur" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/displacer-beast.png" alt="Displacer Beast" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/duergar.png" alt="Duergar" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/grick.png" alt="Grick" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/hobgoblin.png" alt="Hobgoblin" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/mindflayer.png" alt="Mindflayer" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/roper.jpg" alt="Roper" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/shadow-demon.png" alt="Shadow Demon" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/spirit-troll.png" alt="Spirit Troll" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/steeder-spider.jpg" alt="Steeder Spider" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/svirfneblin.jpg" alt="Svirfneblin" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/troglodyte.png" alt="Troglodyte" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/wight.jpg" alt="Wight" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/wraith.png" alt="Wraith" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
-
-    <img src="./assets/images/monsters/xorn.png" alt="Xorn" tabindex="0" data-description="This is a short description of each monster that has been encountered by our adventurers.">
+    {% for item in site.data.monsterdex %}
+    <img src="{{ item.link | relative_url }}" alt="{{ item.name }}" data-description="{{ item.description }}" tabindex="0">
+    {% endfor %}
 
   </div>
 
@@ -60,7 +24,7 @@ subtitle: Creatures encountered by our adventuring Oerthlings
       <figure>
         <img src="./assets/images/monsters/boneclaw.png" alt="Boneclaw">
         <figcaption>
-          <h2>Title</h2>
+          <h2>Boneclaw</h2>
           <p>description</p>
         </figcaption>
       </figure>

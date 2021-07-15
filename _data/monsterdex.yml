@@ -1,0 +1,79 @@
+- name: Ankheg
+  link: /assets/images/monsters/ankheg.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Barbed Devil Boss
+  link: /assets/images/monsters/barbed-devil-boss.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Boneclaw
+  link: /assets/images/monsters/boneclaw.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Bugbear
+  link: /assets/images/monsters/bugbear.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Bulette
+  link: /assets/images/monsters/Bulette.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Centaur
+  link: /assets/images/monsters/Centaur.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Duergar
+  link: /assets/images/monsters/Displacer-Beast.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Duergar
+  link: /assets/images/monsters/Duergar.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Grick
+  link: /assets/images/monsters/Grick.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Hobgoblin
+  link: /assets/images/monsters/Hobgoblin.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Mindflayer
+  link: /assets/images/monsters/Mindflayer.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Roper
+  link: /assets/images/monsters/Roper.jpg
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Shadow Demon
+  link: /assets/images/monsters/Shadow-Demon.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Spirit Troll
+  link: /assets/images/monsters/spirit-troll.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Steeder Spider
+  link: /assets/images/monsters/steeder-spider.jpg
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Svirfneblin
+  link: /assets/images/monsters/svirfneblin.jpg
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Troglodyte
+  link: /assets/images/monsters/Troglodyte.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Wight
+  link: /assets/images/monsters/Wight.jpg
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Wraith
+  link: /assets/images/monsters/Wraith.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
+
+- name: Xorn
+  link: /assets/images/monsters/Xorn.png
+  description: This is a short description of each monster that has been encountered by our adventurers.
