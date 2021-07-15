@@ -63,17 +63,17 @@
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Troglodyte
-  link: /assets/images/monsters/Troglodyte.png
+  link: /assets/images/monsters/troglodyte.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Wight
-  link: /assets/images/monsters/Wight.jpg
+  link: /assets/images/monsters/wight.jpg
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Wraith
-  link: /assets/images/monsters/Wraith.png
+  link: /assets/images/monsters/wraith.png
   description: This is a short description of each monster that has been encountered by our adventurers.
 
 - name: Xorn
-  link: /assets/images/monsters/Xorn.png
+  link: /assets/images/monsters/xorn.png
   description: This is a short description of each monster that has been encountered by our adventurers.
